@@ -51,3 +51,4 @@ Android only; iOS does not allow apps to read SMS.
 - **App icon**: replaced the default React Native icon with a bold white "OTP" and three green dots on a charcoal gradient. Adaptive (fits any launcher shape) with themed-icon support, plus PNG fallbacks.
 - Tried Google's SMS User Consent API (no SMS permission, but an "Allow" popup for every OTP) and reverted it in favour of the one-time permission. `SmsModule.kt`, `AndroidManifest.xml` and `app/build.gradle` are unchanged.
 # hotstar-sms-reader
+# otp-reader
